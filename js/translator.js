@@ -14,6 +14,3 @@ const ZENIT_POLAR = Object.freeze({
 
 const permutate = (text, cipher=ZENIT_POLAR) => Array.prototype.map.call(
   text, (symbol) => cipher[symbol] || symbol).join('');
-
-console.log(permutate('ZENIT'));
-console.log(permutate(permutate('ZENIT')));
