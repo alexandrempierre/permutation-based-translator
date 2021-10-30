@@ -2,42 +2,42 @@
 <html>
 
 <head>
-    <meta charset="UTF-8" />
+  <meta charset="UTF-8" />
 
-    <title>Translator</title>
-    <script src="./js/translator.js"></script>
-    <script>
-        function onInput() {
-            const text_in = document.getElementById('text-in');
-            const text_out = document.getElementById('text-out');
-            
-            const text = text_in.value.toUpperCase();
-            const permutated = permutate(text);
-            
-            text_out.value = permutated;
-        }
+  <title>Translator</title>
+  <script src="./js/translator.js"></script>
+  <script>
+    function onInput() {
+      const text_in = document.getElementById('text-in');
+      const text_out = document.getElementById('text-out');
 
-        function load() {
-            document.getElementById('text-in').addEventListener('input', onInput, false);
-        }
+      const text = text_in.value.toUpperCase();
+      const permutated = permutate(text);
 
-        document.addEventListener('DOMContentLoaded', load, false);
-    </script>
+      text_out.value = permutated;
+    }
 
-    <style>
-        textarea {
-            text-transform: uppercase;
-        }
-    </style>
+    function load() {
+      document.getElementById('text-in').addEventListener('input', onInput, false);
+    }
+
+    document.addEventListener('DOMContentLoaded', load, false);
+  </script>
+
+  <style>
+    textarea {
+      text-transform: uppercase;
+    }
+  </style>
 
 </head>
 
 <body>
-    <label for="text-in">Texto</label>
-    <textarea id="text-in"></textarea>
+  <label for="text-in">Texto</label>
+  <textarea id="text-in"></textarea>
     
-    <label for="text-out">Tradução</label>
-    <textarea id="text-out" disabled></textarea>
+  <label for="text-out">Tradução</label>
+  <textarea id="text-out" disabled></textarea>
 </body>
 
 </html>
