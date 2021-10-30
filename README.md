@@ -1,3 +1,3 @@
-# Shift based translator
+# Permutation based translator
 
-An implementation of a translator for shift-based ciphers like Caesar cipher.
+An implementation of a translator for permutation-based ciphers like Zenit-Polar and Caesar cipher.
