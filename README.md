@@ -2,7 +2,8 @@
 
 No livro Arlindo, da ilustralu, em determinado momento há uma troca de bilhetes em um código chamado de ZENIT-POLAR. Para entender o código e seu nome, é só escrever as duas palavras uma em cima da outra, como abaixo:
 
-```Z E N I T
+```
+Z E N I T
 P O L A R
 ```
 
