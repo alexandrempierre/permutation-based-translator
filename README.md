@@ -11,5 +11,5 @@ E trocar as letras correspondentes, as que estão em cima ou embaixo da outra, n
 
 **Exemplos:** 
 
-"Arlindo" vira "Itnalde"
-"Lan house" vira "Nil heuso"
+* "Arlindo" vira "Itnalde"
+* "Lan house" vira "Nil heuso"
