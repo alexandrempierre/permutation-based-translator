@@ -4,19 +4,28 @@
 <head>
   <meta charset="UTF-8" />
 
-  <title>Translator</title>
+  <title>Tradutor de Zenit-Polar</title>
   <script src="./js/translator.js"></script>
   <script src="./js/events.js"></script>
 
-  <link href="css/style.css" rel="stylesheet" />  
+  <link href="css/style.css" rel="stylesheet">
+  <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet"> -->
 </head>
 
 <body>
-  <label for="text-in">Texto</label>
-  <textarea id="text-in"></textarea>
+  <main>
+    <section class="upper-half">
+      <label for="text-in">Texto</label>
+      <textarea id="text-in"></textarea>
+    </section>
     
-  <label for="text-out">Tradução</label>
-  <textarea id="text-out" disabled></textarea>
+    <section class="lower-half">
+      <label for="text-out">Tradução</label>
+      <textarea id="text-out" disabled></textarea>
+    </section>
+  </main>
 </body>
 
 </html>

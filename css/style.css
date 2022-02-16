@@ -1,3 +1,44 @@
+body {
+  background-color: #d6dadd;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  margin: 0;
+  height: 95vh;
+}
+
+textarea {
+  background-color: #b3b7ba;
+  border: 0;
+  font-weight: bold;
+  font-size: 5em;
+  color: #021a4a;
+  width: 100%;
+  height: 80%;
+  display: block;
+}
+
+label {
+  display: block;
+  text-align: center;
+  font-family: sans;
+  font-size: 2em;
+  min-height: 2em;
+}
+
+.upper-half, .lower-half {
+  height: 40%;
+  align: center
+}
+
+.lower-half {
+  margin-top: 10%;
+}
+
 #text-in {
   text-transform: uppercase;
 }
